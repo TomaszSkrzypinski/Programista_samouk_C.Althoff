@@ -1,4 +1,4 @@
-# dzielenie łańuchów
+# dzielenie łańuchów na listy
 
 print("Hej.Siema!".split("."))
 
