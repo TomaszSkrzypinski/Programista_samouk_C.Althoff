@@ -99,4 +99,3 @@ indeks_kropki = zdanie.index(".")
 wycinek = zdanie[:indeks_kropki + 1]
 
 print(wycinek)
-
