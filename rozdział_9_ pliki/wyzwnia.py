@@ -1,0 +1,35 @@
+#!/usr/bin/python
+# -*- coding: windows-1250 -*-
+
+import csv
+
+# wyœwietl zawartoœæ pliku z komputera
+
+path = "C:\Windows\Intel_Chipset_XPVistaWin7_V9301019\AsusSetup.ini"
+
+with open(path, "r") as f:
+    print(f.read())
+
+
+# napisz program który zada pytanie u¿ytkownikowi i zapisze odpowiedŸ w pliku
+
+path = 'C:\plik_python.txt'
+
+with open(path, "w")as f:
+    f.write(input("Jak¹ mamy porê roku? "))
+
+
+# napisz program który zapisze w pliku csv listê list,
+# ka¿da lista powinna zostaæ zapisana w osobnym wierszu, a pozycjê z listy oddzielone przecinkami
+
+lista = [["Top Gun", "Ocean's Eleven", "Raport mniejszoœci"],
+         ["Titanic", "Ostatni Jedni", "Incepcja"],
+         ["Pulp Fiction", "Cz³owiek w ogniu", "Seksmisja"]]
+
+path = "C:\plik_python.csv"
+
+with open(path, "w", newline='') as f:
+    write = csv.writer(f, delimiter=",")
+    write.writerow(lista[0])
+    write.writerow(lista[1])
+    write.writerow(lista[2])
