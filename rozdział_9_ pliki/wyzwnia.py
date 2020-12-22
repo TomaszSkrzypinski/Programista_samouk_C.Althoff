@@ -23,7 +23,7 @@ with open(path, "w")as f:
 # ka¿da lista powinna zostaæ zapisana w osobnym wierszu, a pozycjê z listy oddzielone przecinkami
 
 lista = [["Top Gun", "Ocean's Eleven", "Raport mniejszoœci"],
-         ["Titanic", "Ostatni Jedni", "Incepcja"],
+         ["Titanic", "Ostatni Jedi", "Incepcja"],
          ["Pulp Fiction", "Cz³owiek w ogniu", "Seksmisja"]]
 
 path = "C:\plik_python.csv"
