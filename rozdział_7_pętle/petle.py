@@ -42,7 +42,7 @@ for character in people:
 
     # wprowadzanie zmian w danej iterowalnej
 
-tv = ["Jaka to melodai",
+tv = ["Jaka to melodia",
          "Spadkobiercy",
          "Familiada"]
 
@@ -55,7 +55,7 @@ for show in tv:
 
 print(tv)
 
-tv = ["Jaka to melodai",
+tv = ["Jaka to melodia",
          "Spadkobiercy",
          "Familiada"]
 
@@ -68,7 +68,7 @@ print(tv)
 
     # modyfikacja i łączenie dwóch pętli
 
-tv = ["Jaka to melodai",
+tv = ["Jaka to melodia",
          "Spadkobiercy",
          "Familiada"]
 
